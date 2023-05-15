@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "fastweb-assignment"
+version = "0.1.0"
+description = "Fastweb data science assignment"
+authors = ["dpaletti <danielepaletti98@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "fastweb_assignment"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+jupyter = "^1.0.0"
+pandas = "^2.0.1"
+numpy = "^1.24.3"
+plotly = "^5.14.1"
+scikit-learn = "^1.2.2"
+xgboost = "^1.7.5"
+matplotlib = "^3.7.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
